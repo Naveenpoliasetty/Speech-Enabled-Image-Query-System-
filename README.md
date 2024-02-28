@@ -43,19 +43,14 @@ pip install -r requirements.txt
 Download and set up the Whisper ASR model and the llava-hf/llava-1.5-7b-hf model according to their respective documentation.
 
 Usage
-Run the chatbot:
+Run the chatbot: (opens in gradio)
 
 bash
 Copy code
 python chatbot.py
-Follow the on-screen instructions to provide queries through speech or images.
 
-Configuration
-You can configure the chatbot behavior, such as speech synthesis settings, in the config.yaml file.
 Credits
-Whisper ASR System: Link to Whisper Repository
-llava-hf/llava-1.5-7b-hf Model: Link to llava-hf Repository
-License
-This project is licensed under the MIT License.
+Whisper ASR System: https://github.com/openai/whisper
+llava-hf/llava-1.5-7b-hf Model: https://huggingface.co/llava-hf/llava-1.5-7b-hf
 
 Feel free to contribute, report issues, or suggest improvements
